@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%; 
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 930px;
+    width: 100%;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-phone img {
+    height: 38rem;
+}
+
+.instagram-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+}
+
+.instagram-continue {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.group {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 25px 40px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram_logo {
+    width: 175px;
+    height: auto;
+    margin-bottom: 22px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.profile-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 6px 0;
+    border-radius: 4px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.not-account {
+    color: rgb(38, 38, 38);
+}
+
+.link-blue {
+    color: #0095f6;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.get-app {
+    margin-bottom: 15px;
+    color: rgb(38, 38, 38);
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.app-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Padronização idêntica dos botões de download corrigindo proporções */
+.app-download img {
+    height: 40px; 
+    width: auto;
+    object-fit: contain;
+}
